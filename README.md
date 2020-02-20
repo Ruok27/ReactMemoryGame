@@ -1,4 +1,4 @@
-#TEMP REMINDER  npm run build -> git add .. ->npm run deploy -> wait a few for page to change
+# TEMP REMINDER  npm run build -> git add .. ->npm run deploy -> wait a few for page to change
 
 
 
