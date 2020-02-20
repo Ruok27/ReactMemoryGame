@@ -27,11 +27,6 @@ class Counter extends React.Component {
             Increment
           </button>
 
-
-          <button className="btn btn-warning" onClick={this.handlede}>
-            other button
-          </button>
-
           <button className="btn btn-danger" onClick={this.handlede}>
             Decrement
           </button>
