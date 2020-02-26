@@ -1,16 +1,22 @@
-import React from "react";
+import React from "react"
+
 import "../Header/header.css";
 
+
 class Container extends React.Component {
-  
 
-  render() {
+
+  render(props) {
     return (
-<div class="container">
 
-    
 
-</div>
+      
+      <div onClick={() => props.setClicked(props.id)} className="card col-md-3">
+				<div className="img-container">
+					<img alt={props.name} src={props.image} />
+				</div>
+			</div>
+
     );
   }
 }
