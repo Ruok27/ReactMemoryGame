@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
@@ -9,7 +9,7 @@ import pictures from "./pictures.json";
 let score = 0;
 let topScore = 0;
 
-class App extends React.Component {
+class App extends Component {
   state = {
 
     pictures,
@@ -31,7 +31,6 @@ class App extends React.Component {
 
 
     const clickedImg = pictures.filter(pictures => pictures.id === id);
-
 
     if (clickedImg[0].clicked) {
 
@@ -102,7 +101,7 @@ this.setState({ score });
       <div>
         <Navbar />
         <Header />
-        {this.state.pictures.map(pic => (
+        {this.state.pictures.map(pictures => (
 
         <Container
           funName={this.funName}
@@ -114,6 +113,6 @@ this.setState({ score });
       </div>);
   }
 }
-console.log("===========================" + pictures);
+console.log( pictures[0]);
 
 export default App;

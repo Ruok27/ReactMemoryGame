@@ -1,73 +1,73 @@
 [{
     "id": 1,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/s5pf700/capricorn.png",
     "clicked": false
 },
 {
     "id": 2,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/ZXd72JZ/gemini.png",
     "clicked": false
 },
 {
     "id": 3,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/tQc9Qvj/cancer.png",
     "clicked": false
 },
 {
     "id": 4,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/swpt5DK/aries.png",
     "clicked": false
 },
 {
     "id": 5,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/wRCPpmJ/aquarius.png",
     "clicked": false
 },
 {
     "id": 6,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/qY6jV18/virgo.png",
     "clicked": false
 },
 {
     "id": 7,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/MPd6bhp/taurus.png",
     "clicked": false
 },
 {
     "id": 8,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/M80X9C2/scorpio.png",
     "clicked": false
 },
 {
     "id": 9,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/t2HYwPD/sagittarius.png",
     "clicked": false
 },
 {
     "id": 10,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/hKqmVMg/pisces.png",
     "clicked": false
 },
 {
     "id": 11,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/wJFKxNd/libra.png",
     "clicked": false
 },
 {
     "id": 12,
     "name": "leo",
-    "image": "../../assets/images/leo.png",
+    "image": "https://i.ibb.co/VtKLF6W/leo.png",
     "clicked": false
 }
 ]
