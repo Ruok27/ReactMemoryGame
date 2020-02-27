@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Header from "./components/Header/Header";
 import Container from "./components/Container/Container";
-import pictures from "./pictures.JSON";
+import pictures from "./pictures.json";
 
 
 let score = 0;
@@ -18,25 +18,22 @@ class App extends React.Component {
 
   };
 
-shuffle = () =>{
 
-  pictures.sort(function(a,b) {return .5 -Math.random()})
-
-
-}
 
 
 
 
   //example function 
-  funName = (id) => {
+  funName = id => {
 
     const pictures = this.state.pictures;
 
-    const clicked = pictures.filter(pictures => pictures.id === id);
 
 
-    if (clicked[0].clicked) {
+    const clickedImg = pictures.filter(pictures => pictures.id === id);
+
+
+    if (clickedImg[0].clicked) {
 
       score = 0;
 
@@ -66,14 +63,14 @@ if (score > topScore){
   this.setState({ topScore});
 }
 
-this.shuffle();
+pictures.sort(function(a,b) {return .5 -Math.random()})
 
 this.setState({pictures});
 this.setState({score});
 
     } else{
 
-clicked[0].clicked =true;
+      clickedImg[0].clicked =true;
 
 score =0;
 
@@ -87,7 +84,7 @@ pictures[i].clicked= false;
 
 }
 
-this.shuffle();
+pictures.sort(function(a,b) {return .5 -Math.random()})
 
 this.setState({ pictures });
 this.setState({ score });
@@ -105,12 +102,18 @@ this.setState({ score });
       <div>
         <Navbar />
         <Header />
-        <Container  funName = {this.funName}
+        {this.state.pictures.map(pic => (
+
+        <Container
+          funName={this.funName}
         id = {pictures.id}
         key = {pictures.id}
-        image = {pictures.image}/>
+        image = {pictures.image}
+        />
+        ))}
       </div>);
   }
 }
+console.log("===========================" + pictures);
 
 export default App;

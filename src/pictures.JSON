@@ -1,60 +1,72 @@
 [{
     "id": 1,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 2,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 3,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 4,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 5,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 6,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 7,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 8,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 9,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 10,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 11,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 },
 {
     "id": 12,
+    "name": "leo",
     "image": "../../assets/images/leo.png",
     "clicked": false
 }
